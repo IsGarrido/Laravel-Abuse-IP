@@ -1,11 +1,11 @@
 <?php
 
-namespace RahulAlam31\LaravelAbuseIp\tests\Feature;
+namespace IsGarrido\LaravelAbuseIp\tests\Feature;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Cache;
 use Orchestra\Testbench\TestCase;
-use RahulAlam31\LaravelAbuseIp\AbuseIPServiceProvider;
+use IsGarrido\LaravelAbuseIp\AbuseIPServiceProvider;
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\AbuseIp;
 

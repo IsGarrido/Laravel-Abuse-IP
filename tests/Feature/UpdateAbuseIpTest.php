@@ -1,12 +1,12 @@
 <?php
 
-namespace RahulAlam31\LaravelAbuseIp\tests\Feature;
+namespace IsGarrido\LaravelAbuseIp\tests\Feature;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use Orchestra\Testbench\TestCase;
-use RahulAlam31\LaravelAbuseIp\AbuseIPServiceProvider;
+use IsGarrido\LaravelAbuseIp\AbuseIPServiceProvider;
 
 class UpdateAbuseIpTest extends TestCase
 {

@@ -1,5 +1,5 @@
 {
-  "name": "rahulalam31/laravel-abuse-ip",
+  "name": "IsGarrido/laravel-abuse-ip",
   "description": "Block ip address of all spammer's around the world.",
   "keywords": [
     "framework",
@@ -12,8 +12,8 @@
   "type": "library",
   "authors": [
     {
-      "name": "rahulalam31",
-      "email": "rahulalam31@users.noreply.github.com"
+      "name": "IsGarrido",
+      "email": "IsGarrido@users.noreply.github.com"
     }
   ],
   "require": {
@@ -36,13 +36,13 @@
   },
   "autoload": {
     "psr-4": {
-      "RahulAlam31\\LaravelAbuseIp\\": "src/"
+      "IsGarrido\\LaravelAbuseIp\\": "src/"
     }
   },
   "extra": {
       "laravel": {
           "providers": [
-              "RahulAlam31\\LaravelAbuseIp\\AbuseIPServiceProvider"
+              "IsGarrido\\LaravelAbuseIp\\AbuseIPServiceProvider"
           ]
       }
   },

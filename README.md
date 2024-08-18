@@ -5,7 +5,7 @@
 
 ##Keep you webiste safe from spammer.
 
-![Packagist Downloads](https://img.shields.io/packagist/dt/rahulalam31/Laravel-Abuse-IP) ![Packagist Version](https://img.shields.io/packagist/v/rahulalam31/Laravel-Abuse-IP) [![License: MIT](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/license/mit) [![Update SPAM IP List](https://github.com/rahulalam31/Laravel-Abuse-IP/actions/workflows/update_spamiplist.yml/badge.svg)](https://github.com/rahulalam31/Laravel-Abuse-IP/actions/workflows/update_spamiplist.yml)
+![Packagist Downloads](https://img.shields.io/packagist/dt/IsGarrido/Laravel-Abuse-IP) ![Packagist Version](https://img.shields.io/packagist/v/IsGarrido/Laravel-Abuse-IP) [![License: MIT](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/license/mit) [![Update SPAM IP List](https://github.com/IsGarrido/Laravel-Abuse-IP/actions/workflows/update_spamiplist.yml/badge.svg)](https://github.com/IsGarrido/Laravel-Abuse-IP/actions/workflows/update_spamiplist.yml)
 
 
 Adds a Security to Laravel for checking whether the IP address is safe or marked as spam to keep you out of worry from spammers and fake data to your website. 
@@ -16,7 +16,7 @@ Uses the AbuseIPDB blocklist from [borestad/blocklist-abuseipdb](https://github.
 1. Run the Composer require command to install the package. The service provider is discovered automatically.
 
     ```bash
-    composer require rahulalam31/laravel-abuse-ip 
+    composer require IsGarrido/laravel-abuse-ip 
     ```
 
 2. Publish the configuration file and adapt the configuration as desired:

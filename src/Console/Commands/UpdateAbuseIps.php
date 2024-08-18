@@ -1,6 +1,6 @@
 <?php
 
-namespace RahulAlam31\LaravelAbuseIp\Console\Commands;
+namespace IsGarrido\LaravelAbuseIp\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;

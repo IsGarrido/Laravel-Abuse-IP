@@ -1,9 +1,9 @@
 <?php
 
-namespace RahulAlam31\LaravelAbuseIp;
+namespace IsGarrido\LaravelAbuseIp;
 
 use Illuminate\Support\ServiceProvider;
-use RahulAlam31\LaravelAbuseIp\Console\Commands\UpdateAbuseIps;
+use IsGarrido\LaravelAbuseIp\Console\Commands\UpdateAbuseIps;
 use App\Http\Middleware\AbuseIp;
 
 class AbuseIPServiceProvider extends ServiceProvider
